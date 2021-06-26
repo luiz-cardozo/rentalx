@@ -1,6 +1,6 @@
-import { AppError } from "../../../../errors/AppError";
-import { CategoryRepositoryMock } from "../../../../modules/cars/repositories/mocks/CategoriesRepositoryMock";
-import { CreateCategoryService } from "../../../../modules/cars/useCases/createCategory/CreateCategoryService";
+import { AppError } from "@errors/AppError";
+import { CategoryRepositoryMock } from "@modules/cars/repositories/mocks/CategoriesRepositoryMock";
+import { CreateCategoryService } from "@modules/cars/useCases/createCategory/CreateCategoryService";
 
 let createCategoryService: CreateCategoryService;
 let categoriesRepositoryMock: CategoryRepositoryMock;

@@ -1,8 +1,8 @@
-import { AppError } from "../../../../errors/AppError";
-import { ICreateUserDTO } from "../../../../modules/accounts/dtos/ICreateUserDTO";
-import { UsersRepositoryMock } from "../../../../modules/accounts/repositories/mocks/UsersRepositoryMock";
-import { AuthenticateUserService } from "../../../../modules/accounts/useCases/autheticateUser/AuthenticateUserService";
-import { CreateUserService } from "../../../../modules/accounts/useCases/createUser/CreateUserService";
+import { AppError } from "@errors/AppError";
+import { ICreateUserDTO } from "@modules/accounts/dtos/ICreateUserDTO";
+import { UsersRepositoryMock } from "@modules/accounts/repositories/mocks/UsersRepositoryMock";
+import { AuthenticateUserService } from "@modules/accounts/useCases/autheticateUser/AuthenticateUserService";
+import { CreateUserService } from "@modules/accounts/useCases/createUser/CreateUserService";
 
 let usersRepositoryMock: UsersRepositoryMock;
 let createUserService: CreateUserService;
