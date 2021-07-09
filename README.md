@@ -2,13 +2,12 @@
 
 **[FR] Functional requirements**
 Must be possible to create a new car registry
-Must be possible to list all categories
 
 **[BR] Business rules**
 Shouldn't be possible to register a car with a license plate already in use
-Shouldn't be possible to update a license place of a car already registered
 Car availability default value should be true
-Only admin user must be able to register cars
+
+- Only admin user must be able to register cars
 
 # Car list
 
