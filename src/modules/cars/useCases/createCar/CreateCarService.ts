@@ -2,7 +2,7 @@ import { inject, injectable } from "tsyringe";
 
 import { AppError } from "@errors/AppError";
 import { Car } from "@modules/cars/infra/typeorm/entities/Car";
-import { ICarsRepositoru } from "@modules/cars/repositories/ICarsRepository";
+import { ICarsRepository } from "@modules/cars/repositories/ICarsRepository";
 
 interface IRequest {
   name: string;
@@ -18,7 +18,7 @@ interface IRequest {
 class CreateCarService {
   constructor(
     @inject("CarsRepository")
-    private carsRepository: ICarsRepositoru
+    private carsRepository: ICarsRepository
   ) {}
 
   async execute({

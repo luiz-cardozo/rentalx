@@ -21,7 +21,6 @@ describe("Create car", () => {
       brand: "Car brand",
       category_id: "category",
     });
-    console.log(car);
     expect(car).toHaveProperty("id");
   });
 

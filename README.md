@@ -26,7 +26,6 @@ There's no need for user to be logged in to list cars
 
 **[FR] Functional requirements**
 Must be possible to register the specs of a car
-Must be possible to list all the specs
 
 **[BR] Business rules**
 Shouldn't be able to register spec for a non-registered car
@@ -37,7 +36,6 @@ Only admin user must be able to register specs
 
 **[FR] Functional requirements**
 Must be possible to add images to the cars
-Must be possible to list all cars
 
 **[RF] Requisitos não funcional**
 Must use mutter to upload files
